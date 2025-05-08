@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="32dp">
+
+        <ImageView
+            android:id="@+id/logoImpacto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_ecotech"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Logo EcoTech" />
+
+        <TextView
+            android:id="@+id/tvTituloImpacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Impacto Ambiental"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="24dp"
+            android:layout_marginBottom="24dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:id="@+id/tvCO2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CO₂ economizado: 47,3 kg"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvEletronicos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eletrônicos reciclados: 12"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVoltarInicioImpacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar ao Início"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
