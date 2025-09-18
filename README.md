@@ -1,4 +1,4 @@
-# Smart HAS - Global Solution FIAP
+# EchoTech v1
 
 🚀 Aplicativo mobile desenvolvido como parte do projeto **Global Solution FIAP**, voltado para a Sociedade 5.0, IoT e sustentabilidade.
 
